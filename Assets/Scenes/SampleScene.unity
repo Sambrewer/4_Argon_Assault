@@ -121,7 +121,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &337094860
+--- !u!1 &380612943
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,9 +129,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 337094863}
-  - component: {fileID: 337094862}
-  - component: {fileID: 337094861}
+  - component: {fileID: 380612946}
+  - component: {fileID: 380612945}
+  - component: {fileID: 380612944}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -139,27 +139,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!154 &337094861
+--- !u!154 &380612944
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337094860}
+  m_GameObject: {fileID: 380612943}
   m_Material: {fileID: 0}
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 7b87856561100664d8af4dabc7b64d4c, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: a3520a108115ef4418b76d9a67a7e8cc, type: 2}
   m_EnableTreeColliders: 1
---- !u!218 &337094862
+--- !u!218 &380612945
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337094860}
+  m_GameObject: {fileID: 380612943}
   m_Enabled: 1
   serializedVersion: 6
-  m_TerrainData: {fileID: 15600000, guid: 7b87856561100664d8af4dabc7b64d4c, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: a3520a108115ef4418b76d9a67a7e8cc, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -183,13 +183,13 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
---- !u!4 &337094863
+--- !u!4 &380612946
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 337094860}
+  m_GameObject: {fileID: 380612943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -500, y: -100, z: -500}
   m_LocalScale: {x: 1, y: 1, z: 1}
