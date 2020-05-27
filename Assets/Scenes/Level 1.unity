@@ -605,6 +605,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1846875368}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &873516547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873516545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9f90841f44ca184380b44b378385b04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &873516549
 MonoBehaviour:
   m_ObjectHideFlags: 0
