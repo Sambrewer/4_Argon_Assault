@@ -25,6 +25,16 @@ public class Player : MonoBehaviour
         
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        print("Bump");
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        print("Bump trigger");
+    }
+
     // Update is called once per frame
     void Update()
     {
