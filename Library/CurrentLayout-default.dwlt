@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 62
+  controlID: 48
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 49
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 50
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -326,7 +326,7 @@ MonoBehaviour:
     height: 508
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: player
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -338,20 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Standard Assets/Utility
+    - Assets/generic space enemy/Prefab/Module
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Standard Assets/Utility
+  - Assets/generic space enemy/Prefab/Module
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\code\Unity\4_Argon_Assault
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 56}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026370000283700002a3700006c3700008c380000244700002e47000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d0370000
+    m_LastClickedID: 14288
+    m_ExpandedIDs: 00000000aa370000ac370000ae370000b0370000c6370000ce37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026370000283700002a370000
+    m_ExpandedIDs: 00000000aa370000ac370000ae370000b0370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,23 +502,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 02d1ffffc8dafffffcdaffff70fbffff503600005e360000
+      m_SelectedIDs: 2897ffff
+      m_LastClickedID: -26840
+      m_ExpandedIDs: 70fbffff80360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Ship_03
-        m_OriginalName: Ship_03
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -15470
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 613.9092, y: 88.462494, z: 350.76495}
+    m_Target: {x: -2376.1309, y: -43.99074, z: -765.8292}
     speed: 2
-    m_Value: {x: 613.9092, y: 88.462494, z: 350.76495}
+    m_Value: {x: -2376.1309, y: -43.99074, z: -765.8292}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -612,13 +612,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04200226, y: -0.9452306, z: 0.2943651, w: -0.13495764}
+    m_Target: {x: 0.018638203, y: -0.79017514, z: 0.024010185, w: 0.61223245}
     speed: 2
-    m_Value: {x: -0.041558806, y: -0.94538975, z: 0.2944146, w: -0.13353367}
+    m_Value: {x: 0.018637, y: -0.7901241, z: 0.024008634, w: 0.61219287}
   m_Size:
-    m_Target: 37.37592
+    m_Target: 1221.2944
     speed: 2
-    m_Value: 39.13709
+    m_Value: 1221.2944
   m_Ortho:
     m_Target: 0
     speed: 2
