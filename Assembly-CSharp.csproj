@@ -159,6 +159,7 @@
     <Compile Include="Assets\Asset Packs\StarSparrow\Readme\Readme Files\Scripts\ReadmeStarSparrow.cs" />
     <Compile Include="Assets\Asset Packs\epyphany\demo\ressources\move.cs" />
     <Compile Include="Assets\Asset Packs\epyphany\demo\ressources\rotate.cs" />
+    <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Scripts\AxisTouchButton.cs" />
     <Compile Include="Assets\Scripts\BetterWaypointFollower.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
