@@ -320,6 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1 &276832675
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +334,7 @@ GameObject:
   - component: {fileID: 276832677}
   - component: {fileID: 276832679}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Score Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,9 +355,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -877, y: -436}
-  m_SizeDelta: {x: -1915.3342, y: -1041.9595}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: -550}
+  m_SizeDelta: {x: 4.6657715, y: 1355.0203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276832677
 MonoBehaviour:
@@ -387,10 +388,10 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1234567890
+  m_Text: 12
 --- !u!222 &276832678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -411,7 +412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb629c763b3098c4da22a4fa44ff156d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePerHit: 12
 --- !u!1001 &282442703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,6 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1 &400631214 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -509,6 +510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &434105224 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -541,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &566453685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -618,6 +621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &586773039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -644,6 +648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &620421680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -740,6 +745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &781643221 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4990607877152018, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -902,10 +908,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1197,6 +1203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &1103323627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1390,6 +1397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1 &1460470987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1074994750746910, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -1410,6 +1418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &1484777261 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4990607877152018, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -1436,6 +1445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1 &1588917129 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1238095480485456, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1456,6 +1466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &1613628829 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4354848751893472, guid: bf374732b0ea2c34daa340dc2de7f746,
@@ -1482,6 +1493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &1638848205
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1946,6 +1958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1 &1820361711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1074994750746910, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -1966,6 +1979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &1846875368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2059,6 +2073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &1949767890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2294,6 +2309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!4 &2027661671 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4990607877152018, guid: 6d7afa73fcb1fce4cb4b65361a29bcbd,
@@ -2368,6 +2384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 4429834063406346358, guid: 199e49117d025c643acff2eeb6f02e3c, type: 3}
   parent: {fileID: 1952959482}
+  scorePerHit: 12
 --- !u!1001 &278449924040913200
 PrefabInstance:
   m_ObjectHideFlags: 0
