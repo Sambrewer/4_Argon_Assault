@@ -28,12 +28,17 @@ public class Enemy : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        scoreBoard.ScoreHit(scorePerHit);
-        hits--;
+        ProcessHits();
         if (hits <= 0)
         {
             KillEnemy();
         }
+    }
+
+    private void ProcessHits()
+    {
+        scoreBoard.ScoreHit(scorePerHit);
+        hits--;
     }
 
     private void KillEnemy()
